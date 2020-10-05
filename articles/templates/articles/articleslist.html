@@ -7,8 +7,10 @@
     <title></title>
   </head>
   <body>
-    {%for article in articles%}
-    <p>{{article.title}}     {{article.snipet}}</p>
-    {%endfor%}
+    <div class="container">
+      {%for article in articles%}
+      <p>{{article.title}}     {{article.snipet}}</p>
+      {%endfor%}
+    </div>
   </body>
 </html>
