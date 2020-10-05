@@ -1,0 +1,14 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{%static 'styles.css' %}">
+    <title></title>
+  </head>
+  <body>
+    {%for article in articles%}
+    <p>{{article.title}}     {{article.snipet}}</p>
+    {%endfor%}
+  </body>
+</html>
