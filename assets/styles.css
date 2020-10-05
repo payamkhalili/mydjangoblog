@@ -1,3 +1,6 @@
 body{
-  color: red;
+  color: white;
+  background-image: url(strawberry.jpg);
+  background-repeat-y:no-repeat;
+  background-attachment: fixed;
 }
